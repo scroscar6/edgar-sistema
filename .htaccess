@@ -1,0 +1,6 @@
+Options All -Indexes
+<ifmodule mod_rewrite.c>
+	ErrorDocument 403: "/403.php"
+	ErrorDocument 404: "/404.php"
+	ErrorDocument 405: "/405.php"
+</ifmodule>
